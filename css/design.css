@@ -75,3 +75,19 @@ button {
     align-items: center;
     margin: 2em 0;
 }
+.main-sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-row{
+    justify-content: space-between;
+}
+
+.col1{
+    justify-content: flex-start;
+}
+
+.col2{
+    justify-content: flex-end;
+}
