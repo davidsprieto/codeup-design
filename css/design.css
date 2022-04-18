@@ -1,5 +1,7 @@
 .logo-img{
     margin-right: 1em;
+    height: 75px;
+    width: 75px;
 }
 
 nav {
@@ -26,7 +28,7 @@ h2 {
     font-family: Anton;
 }
 
-button {
+.button {
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -86,6 +88,10 @@ button {
     margin: 2em 0;
 }
 
+hr {
+    width: 95%;
+}
+
 .column {
     display: flex;
     justify-content: center;
@@ -100,77 +106,57 @@ button {
 }
 
 .button-sm {
-    padding: 10px;
-    text-align: left;
+    font-family: Anton;
+    border: none;
+    text-align: center;
     text-decoration: none;
     display: flex;
-    font-size: 7px;
-    margin: 0 3px;
-}
-
-.featured-icons{
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-.bottom-line{
-    align-content: center;
-    align-items: flex-start;
+    font-size: 16px;
+    margin: -20px 4px;
 }
 
 .b1 {
-    font-family: Anton;
-    border: none;
     background-color: #E6563B;
     border-radius: 105px;
-    width: 7px;
-    height: 7px;
+    width: 25px;
+    height: 25px;
     justify-content: center;
     align-items: center;
 }
 
 .b2 {
-    font-family: Anton;
-    border: none;
     background-color: #EB9D3A;
     border-radius: 105px;
-    width: 5px;
-    height: 5px;
+    width: 25px;
+    height: 25px;
     justify-content: center;
     align-items: center;
 }
 
 .b3 {
-    font-family: Anton;
-    border: none;
     background-color: #7CB06C;
     border-radius: 105px;
-    width: 5px;
-    height: 5px;
+    width: 25px;
+    height: 25px;
     justify-content: center;
     align-items: center;
 }
 
 .b4 {
-    font-family: Anton;
-    border: none;
     background-color: #00ABA9;
     border-radius: 105px;
-    width: 5px;
-    height: 5px;
+    width: 25px;
+    height: 25px;
     justify-content: center;
     align-items: center;
 }
 
-.button-row-sm {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.featured-text {
+    margin-top: -15px;
+    margin-left: 25px;
+    margin-right: 80px;
 }
 
-.featured-icons{
-    display: flex;
-    flex-direction: row;
-    width: 5px;
-    height: 5px;
+.col-6 {
+    margin-right: 0;
 }
