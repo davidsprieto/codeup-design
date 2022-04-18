@@ -2,6 +2,10 @@
     margin-right: 1em;
 }
 
+nav {
+    background-color: #F0F0F0;
+}
+
 .navbar-brand{
     margin-right: 2em;
 }
@@ -23,8 +27,6 @@ h2 {
 }
 
 button {
-    border: 8px solid white;
-    color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -34,6 +36,8 @@ button {
 }
 
 .button1 {
+    border: 8px solid white;
+    color: white;
     background-color: #E6563B;
     border-radius: 105px;
     width: 100px;
@@ -43,6 +47,8 @@ button {
 }
 
 .button2 {
+    border: 8px solid white;
+    color: white;
     background-color: #EB9D3A;
     border-radius: 105px;
     width: 100px;
@@ -52,6 +58,8 @@ button {
 }
 
 .button3 {
+    border: 8px solid white;
+    color: white;
     background-color: #7CB06C;
     border-radius: 105px;
     width: 100px;
@@ -61,6 +69,8 @@ button {
 }
 
 .button4 {
+    border: 8px solid white;
+    color: white;
     background-color: #00ABA9;
     border-radius: 105px;
     width: 100px;
@@ -75,19 +85,75 @@ button {
     align-items: center;
     margin: 2em 0;
 }
-.main-sec{
+
+.column {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-row{
-    justify-content: space-between;
+.col-img {
+    width: 21em;
+    height: auto;
+    border: 7px solid #E6E6E6;
+    margin: 20px 10px;
 }
 
-.col1{
-    justify-content: flex-start;
+.button-sm {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 0 14px;
 }
 
-.col2{
+.b1 {
+    font-family: Anton;
+    border: none;
+    background-color: #E6563B;
+    border-radius: 105px;
+    width: 5px;
+    height: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.b2 {
+    font-family: Anton;
+    border: none;
+    background-color: #EB9D3A;
+    border-radius: 105px;
+    width: 5px;
+    height: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.b3 {
+    font-family: Anton;
+    border: none;
+    background-color: #7CB06C;
+    border-radius: 105px;
+    width: 5px;
+    height: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.b4 {
+    font-family: Anton;
+    border: none;
+    background-color: #00ABA9;
+    border-radius: 105px;
+    width: 5px;
+    height: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-row-sm {
+    display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
