@@ -100,12 +100,22 @@ button {
 }
 
 .button-sm {
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    text-align: left;
     text-decoration: none;
     display: flex;
-    font-size: 16px;
-    margin: 0 14px;
+    font-size: 7px;
+    margin: 0 3px;
+}
+
+.featured-icons{
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.bottom-line{
+    align-content: center;
+    align-items: flex-start;
 }
 
 .b1 {
@@ -113,8 +123,8 @@ button {
     border: none;
     background-color: #E6563B;
     border-radius: 105px;
-    width: 5px;
-    height: 5px;
+    width: 7px;
+    height: 7px;
     justify-content: center;
     align-items: center;
 }
@@ -156,4 +166,11 @@ button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.featured-icons{
+    display: flex;
+    flex-direction: row;
+    width: 5px;
+    height: 5px;
 }
