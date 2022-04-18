@@ -5,3 +5,73 @@
 .navbar-brand{
     margin-right: 2em;
 }
+
+body {
+    font-family: Abel;
+    background-color: #F0F0F0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Anton;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Anton;
+}
+
+button {
+    border: 8px solid white;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 0 14px;
+}
+
+.button1 {
+    background-color: #E6563B;
+    border-radius: 105px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    background-color: #EB9D3A;
+    border-radius: 105px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3 {
+    background-color: #7CB06C;
+    border-radius: 105px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button4 {
+    background-color: #00ABA9;
+    border-radius: 105px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
