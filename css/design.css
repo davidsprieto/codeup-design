@@ -170,9 +170,12 @@ hr {
     margin-right: 0;
 }
 
-
+.post1 {
+    margin-left: 30px;
+}
 .post {
     margin-left: 30px;
+    margin-top: 20px;
 }
 
 .post-img{
@@ -189,3 +192,13 @@ hr {
     margin-top: 15px;
     font-size: 22px;
  }
+.tweet{
+    font-family: Abel;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.lorem{
+    font-family: Abel;
+    margin-left: 30px;
+}
