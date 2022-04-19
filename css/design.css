@@ -117,7 +117,7 @@ hr {
     text-decoration: none;
     display: flex;
     font-size: 10px;
-    margin: -12px 1px;
+    margin: -12px 4px;
 }
 
 .sm-bt-div{
@@ -170,9 +170,15 @@ hr {
     margin-right: 0;
 }
 
-.phone{
-    width: 50px;
-    height: 50px;
+.phone {
+    margin-top: 18px;
+    height: 100px;
+    width: 100px;
     margin-left: 60px;
+    border: 5px solid #E6E6E6;
+}
+
+.text {
+    font-family: Anton;
 
 }
