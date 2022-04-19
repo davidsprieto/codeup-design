@@ -170,15 +170,22 @@ hr {
     margin-right: 0;
 }
 
-.phone {
+
+.post {
+    margin-left: 30px;
+}
+
+.post-img{
     margin-top: 18px;
-    height: 100px;
-    width: 100px;
-    margin-left: 60px;
+    height: 75px;
+    width: 75px;
     border: 5px solid #E6E6E6;
-}
-
-.text {
-    font-family: Anton;
 
 }
+
+.post-title {
+     font-family: Anton;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 22px;
+ }
