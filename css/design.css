@@ -22,7 +22,7 @@ h1 {
     text-align: center;
     font-family: Anton;
     margin-top: 50px;
-    font-size: 62px;
+    font-size: 55px;
 }
 
 h2 {
@@ -91,7 +91,7 @@ h2 {
 }
 
 hr {
-    width: 57.3%;
+    width: 80%;
 }
 
 .column {
@@ -104,25 +104,31 @@ hr {
 .col-img {
     width: 21em;
     height: 15em;
-    border: 7px solid #E6E6E6;
+    border: 10px solid #E6E6E6;
     margin: 20px 10px;
 }
 
 .button-sm {
+    justify-content: center;
+    align-content: center;
     font-family: Anton;
     border: none;
     text-align: center;
     text-decoration: none;
     display: flex;
-    font-size: 16px;
-    margin: -20px 4px;
+    font-size: 10px;
+    margin: -12px 1px;
+}
+
+.sm-bt-div{
+    margin-left: 11px;
 }
 
 .b1 {
     background-color: #E6563B;
     border-radius: 105px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -130,8 +136,8 @@ hr {
 .b2 {
     background-color: #EB9D3A;
     border-radius: 105px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -139,8 +145,8 @@ hr {
 .b3 {
     background-color: #7CB06C;
     border-radius: 105px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -148,18 +154,25 @@ hr {
 .b4 {
     background-color: #00ABA9;
     border-radius: 105px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     justify-content: center;
     align-items: center;
 }
 
 .featured-text {
     margin-top: -15px;
-    margin-left: 25px;
+    margin-left: 32px;
     margin-right: 80px;
 }
 
 .col-6 {
     margin-right: 0;
+}
+
+.phone{
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+
 }
