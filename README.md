@@ -1,7 +1,1 @@
-# Codeup Design - Bootstrap Grid System
-## Codeup Pair Programming Project
-
-Responsive Boostrap web design project developed using:
-- HTML
-- CSS
-- Bootstrap
+<h1 align=center>Codeup Design - Codeup Repository for Bootstrap Grid System</h1>
